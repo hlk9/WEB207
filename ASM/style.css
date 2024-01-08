@@ -1,0 +1,22 @@
+.hiddentButton{
+    display: none;
+}
+
+.card-item:hover + .hiddentButton
+{
+    display: inline-block
+}
+
+.contentRunning{
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation: Running;
+}
+
+
+@keyframes Running{
+    from{margin-left: 100%;}
+    top {margin-left: 0%;}
+}
