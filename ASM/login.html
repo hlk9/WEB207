@@ -10,7 +10,7 @@
     <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-white d-flex justify-content-center border-bottom sticky-top border-black">
+    <nav class="navbar navbar-light bg-white d-flex justify-content-center sticky-top border-black shadow">
         <div class="container-fluid d-flex justify-content-between">
 
             <div>
@@ -22,55 +22,169 @@
                     Dejavie
 
                 </a>
+                
             </div>
-
-            <div class="w-50">
-                <form class="d-flex">
-                    <input class="form-control rounded-5" type="search" placeholder="Nhập tên sản phẩm cần tìm"
-                        aria-label="Search">
-                </form>
+            <div>
+                Bạn cần giúp đỡ?
             </div>
-            <div class="d-flex">
-
-                <div>
-                    <i class=" m-2 fa-solid fa-user fa-lg"></i>
-                </div>
-
-                <div>
-                    <i class="m-2 fa-solid fa-heart fa-lg"></i>
-                </div>
-                <div>
-                    <i class="m-2 fa-solid fa-cart-shopping fa-lg"></i>
-                </div>
-
-            </div>
-
+         
+       
         </div>
-        <div class="d-flex justify-content-evenly w-100 m-1 text-center text-uppercase fw-bold"
-            style="font-size: 1rem;">
-
-            <div>
-                Trang chủ
-            </div>
-            <div>
-                Danh mục
-                <i class="fa-solid fa-caret-down ps-2"></i>
-            </div>
-            <div>
-                Trang sức
-            </div>
-            <div>
-                Ưu đãi khủng
-            </div>
-            <div>
-                Liên hệ
-            </div>
-
-            <div>
-                Về chúng tôi
-            </div>
-        </div>
+       
     </nav>
+    <div class="container-fluid d-flex justify-content-center p-5 min-vh-100" style="background-image: url('/imgs/bglogin.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <div class="w-50 h-50 bg-white m-5 rounded-4 p-5 shadow-lg">
+            <div class="text-center fw-bold m-3" style="font-size: 2rem;">
+                Đăng nhập
+            </div>
+            <div>
+                <div class="d-flex justify-content-center align-items-center w-100 mt-3 mb-3">
+                    <div class="me-3 w-25">
+                        Email hoặc số điện thoại
+                    </div>  
+                    <div class="w-50">
+                        <input type="text" class="border-danger-subtle w-100 border-2 border-top-0 border-start-0 border-end-0 rounded-0 p-2 ms-3 me-5" placeholder="Nhập thông tin" style="outline: none;">
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3 w-100">
+                    <div class="me-3 w-25">
+                       Mật khẩu
+                    </div>  
+                    <div class="w-50">
+                        <input type="password" class="border-danger-subtle w-100 border-2 border-top-0 border-start-0 border-end-0 rounded-0 p-2 ms-3 me-5" placeholder="Nhập mật khẩu" style="outline: none;">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end me-5 pe-4 mt-5">
+                <div class="me-2" >
+                    <a class="btn btn-warning">
+                        Chưa có tài khoản?
+                    </a>
+                </div>
+                <div class="me-2" >
+                    <button class="btn btn-secondary">
+                        Quên mật khẩu
+                    </button>
+                </div>
+                <div>
+                    <button class="btn btn-success">
+                        Đăng nhập
+                        <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="bg-dark text-white-50 p-5 d-flex justify-content-around">
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                    Tài khoản của tôi
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            Tài khoản của tôi 
+                        </li>
+                        <li>
+                            Danh sách yêu thích
+                        </li>
+                        <li>
+                            Giỏ hàng
+                        </li>
+                        <li>
+                            Thanh toán
+                        </li>
+                        <li>
+                            Đăng ký
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                    Thông tin
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            Về chúng tôi
+                        </li>
+                        <li>
+                            Blog của chúng tôi
+                        </li>
+                        <li>
+                            FAQ
+                        </li>
+                        <li>
+                            Liên hệ
+                        </li>
+                        <li>
+                            Điểu khoản và điều kiện
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                   Địa chỉ liên hệ
+                </div>
+                <div>
+                    <ul>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-location-dot" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                Số 999 Đường Lý Hoàng Quân, Thập Vạn Đại Sơn
+                            </div>
+                        </li>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-phone" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                               0987653421
+                            </div>
+                        </li>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-clock" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                Thứ 2-6 | Từ 8:00 - 18:00
+                            </div>
+                        </li>
+
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-envelope" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                hoanglong.cmb@gmail.com
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+           
+
+
+        </div>
+        <div class="border border-dark-subtle text-white-50 p-4 bg-dark border-start-0 border-bottom-0 border-end-0">
+            © 2024 hlk9. All rights reserved.
+        </div>
+
+    </footer>
     
 </body>
 </html>
