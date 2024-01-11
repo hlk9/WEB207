@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../lib/bootstrap.css">
+    <script src="../lib/bootstrap.js"></script>
+    <script src="../lib/font-fontawesome-ae333ffef2.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="/ASM/index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-white d-flex justify-content-center border-bottom sticky-top border-black">
+        <div class="container-fluid d-flex justify-content-between">
+
+            <div>
+                <a class="navbar-brand d-flex align-items-center fw-bold" href="#"
+                    style="font-size: 2rem;">
+                    <img src="https://cdn.icon-icons.com/icons2/2845/PNG/512/squarespace_logo_icon_181252.png" alt=""
+                        width="60" class="d-inline-block align-content-center">
+                    Dejavie
+                </a>
+            </div>
+            <div class="w-50">
+                <form class="d-flex">
+                    <input class="form-control rounded-5" type="search" placeholder="Nhập tên sản phẩm cần tìm"
+                        aria-label="Search">
+                </form>
+            </div>
+            <div class="d-flex">
+
+                <div>
+                    <i class=" m-2 fa-solid fa-user fa-lg"></i>
+                </div>
+                <div>
+                    <i class="m-2 fa-solid fa-heart fa-lg"></i>
+                </div>
+                <div>
+                    <i class="m-2 fa-solid fa-cart-shopping fa-lg"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-evenly w-100 m-1 text-center text-uppercase fw-bold"
+            style="font-size: 1rem;">
+
+            <div>
+                Trang chủ
+            </div>
+            <div class="position-relative">
+                Danh mục
+                <i class="fa-solid fa-caret-down ps-2"></i>
+              
+            </div>
+            <div>
+                Trang sức
+            </div>
+            <div>
+                Ưu đãi khủng
+            </div>
+            <div>
+                Sản phẩm mới
+            </div>
+
+            <div>
+                Về chúng tôi
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid fw-bolder fs-3 text-center p-5">
+        Thanh toán
+    </div>
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row ms-5 me-5 ps-5 pe-5">            
+            <div class="col-7 p-5">
+                <div class="fw-medium fs-4 mb-4">
+                    Chi tiết thanh toán
+                </div>
+                <div class="row ">
+                    <div class="col-6">
+                        <div>
+                            Họ và Tên 
+                         </div>
+                         <div>
+                             <input class="form-control rounded-0 border-dark-subtle p-2 mt-2 mb-2" placeholder="Nhập họ tên">
+                         </div>
+                    </div>
+                    <div  class="col-6">
+                        <div>
+                            Số điện thoại
+                         </div>
+                         <div>
+                             <input class="form-control rounded-0 border-dark-subtle p-2 mt-2 mb-2" placeholder="Nhập SDT">
+                         </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        Tỉnh / Thành phố
+                    </div>
+                    <div>
+                        <input class="form-control rounded-0 border-dark-subtle p-2 mt-2 mb-2" placeholder="Tỉnh/Thành phố">
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        Quận / Huyện
+                    </div>
+                    <div>
+                        <input class="form-control rounded-0 border-dark-subtle p-2 mt-2 mb-2" placeholder=" Quận/Huyện">
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        Xã / Phường
+                    </div>
+                    <div>
+                        <input class="form-control rounded-0 border-dark-subtle p-2 mt-2 mb-2" placeholder="Xã/Phường">
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                      Ghi chú
+                    </div>
+                    <div>
+                        <textarea class="w-100" rows="4" placeholder="Địa chỉ chi tiết">
+                            
+                        </textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-5 border border-black mb-5 mt-5">
+                <div >
+                    <p class="d-inline-flex w-100">
+                        <button
+                            class="btn border-1 border rounded-0 w-100 border-top-0 border-start-0 border-end-0 text-start fs-5 pt-4 pb-4 ps-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseDes" aria-expanded="false"
+                            aria-controls="collapseExample">
+                           <div class="d-flex justify-content-between">
+                            <div>
+                                Mã giảm giá
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-down"></i>
+                            </div>
+                           </div>
+                        </button>
+                    </p>
+                    <div class="collapse w-100" id="collapseDes">
+                        <div class="card card-body border-0 d-flex justify-content-center w-100">
+                            <div class="d-flex me-4 align-items-center w-100">                               
+                                <div class="w-75">
+                                    <input type="text"
+                                        class="form-control bg-white rounded-0 text-center border-bottom border-top border-dark-subtle border-end-0 p-3 w-100" placeholder="Nhập mã Coupon">
+                                </div>
+                                <div>
+                                    <button class="btn rounded-0 border-1 border-dark-subtle p-3 border-start-0 bg-success-subtle">
+                                      Áp dụng
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fs-5">
+                       Đơn của bạn
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center fs-5 pt-4 pb-4">
+
+                        <div class="fw-light">
+                            Fleur de Lis Key Brooch  × 9
+                        </div>
+                        <div class="fw-bold">
+                            9000000 (VND)
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center fs-5 pt-4 pb-4">
+
+                        <div>
+                            Đơn giá
+                        </div>
+                        <div class="fw-bold">
+                            9000000 (VND)
+                        </div>
+
+                    </div>
+                    <hr>
+
+                    <div class="fs-5">
+                        Giao hàng
+                    </div>
+                    <div class="d-flex justify-content-between mt-2 mb-2">
+                        <div>
+                            <input type="radio" name="shippingType" class=" me-2" id="shipType">
+                            Tỷ giá cố định
+                        </div>
+                        <div  class="fw-bold fs-5">
+                            100000 (VND)
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>
+                            <input type="radio" name="shippingType" class=" me-2">
+                            Miễn phí
+                        </div>
+                        <div  class="fw-bold fs-5">
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center fs-5 pt-4 pb-4">
+
+                        <div class="fw-light">
+                           Tổng cộng
+                        </div>
+                        <div class="fw-bold">
+                            9100000 (VND)
+                        </div>
+
+                    </div>
+                    <hr>
+                    <p class="d-inline-flex w-100">
+                        <button
+                            class="btn border-1 border rounded-0 w-100 border-top-0 border-start-0 border-end-0 text-start fs-5 pt-4 pb-4 ps-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapsePayMethod" aria-expanded="false"
+                            aria-controls="collapseExample">
+                           <div class="d-flex justify-content-between">
+                            <div>
+                               Phương thức thanh toán
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-down"></i>
+                            </div>
+                           </div>
+                        </button>
+                    </p>
+                    <div class="collapse w-100" id="collapsePayMethod">
+                        <div class="card card-body border-0 d-flex justify-content-center w-100">
+                            <div>
+                                <div class="fw-bold fs-5">
+                                    <input type="radio" name="payType" class=" me-2" id="payType">
+                                    Thanh toán qua thẻ ngân hàng
+                                </div>
+                                <div class="text-black-50 ms-4">
+                                    Thực hiện thanh toán trực tiếp vào tài khoản ngân hàng của chúng tôi. Vui lòng sử dụng ID đơn hàng của bạn làm tài liệu tham khảo thanh toán. Đơn đặt hàng của bạn sẽ không được vận chuyển cho đến khi tiền đã được xóa trong tài khoản của chúng tôi.
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="fw-bold mt-4 mb-4 fs-5">
+                                    <input type="radio" name="payType" class=" me-2" id="payType">
+                                    Thanh toán khi nhận hàng
+                                </div>
+                                <div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>             
+                 
+                    <div class="d-flex justify-content-center mt-4 mb-4 w-100">
+
+                        <button class="text-uppercase rounded-0 btn text-white w-100 p-3" style="background-color: #c6ad8a;">
+                            ĐẶT HÀNG
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+
+        <div class="bg-dark text-white-50 p-5 d-flex justify-content-around">
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                    Tài khoản của tôi
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            Tài khoản của tôi 
+                        </li>
+                        <li>
+                            Danh sách yêu thích
+                        </li>
+                        <li>
+                            Giỏ hàng
+                        </li>
+                        <li>
+                            Thanh toán
+                        </li>
+                        <li>
+                            Đăng ký
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                    Thông tin
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            Về chúng tôi
+                        </li>
+                        <li>
+                            Blog của chúng tôi
+                        </li>
+                        <li>
+                            FAQ
+                        </li>
+                        <li>
+                            Liên hệ
+                        </li>
+                        <li>
+                            Điểu khoản và điều kiện
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                   Địa chỉ liên hệ
+                </div>
+                <div>
+                    <ul>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-location-dot" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                Số 999 Đường Lý Hoàng Quân, Thập Vạn Đại Sơn
+                            </div>
+                        </li>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-phone" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                               0987653421
+                            </div>
+                        </li>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-clock" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                Thứ 2-6 | Từ 8:00 - 18:00
+                            </div>
+                        </li>
+
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-envelope" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                hoanglong.cmb@gmail.com
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+           
+
+
+        </div>
+        <div class="border border-dark-subtle text-white-50 p-4 bg-dark border-start-0 border-bottom-0 border-end-0">
+            © 2024 hlk9. All rights reserved.
+        </div>
+    </footer>
+
+   
+
+   
+</body>
+</html>

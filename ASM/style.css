@@ -9,3 +9,31 @@
     color: black;
     cursor: pointer;
 }
+
+.relatedProduct:hover{
+    border: 1px solid black !important;
+}
+
+.category-items{
+    width: 20rem;
+    position: fixed;
+    justify-content: start !important;
+    
+    
+}
+
+.category-items{
+    display: none !important;
+}
+
+
+.category-items a{
+    color: teal;
+}
+
+.category-parent:hover .category-items{
+    display: flex !important;
+}
+
+
+
