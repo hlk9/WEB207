@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="../lib/bootstrap.css">
+    <script src="../lib/bootstrap.js"></script>
+    <script src="../lib/font-fontawesome-ae333ffef2.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/ASM/style.css">
+</head>
+
+<body style="font-family:'Roboto', sans-serif;">
+    <nav class="navbar navbar-light bg-white d-flex justify-content-center border-bottom sticky-top border-black">
+        <div class="container-fluid d-flex justify-content-between">
+
+            <div>
+                <a class="navbar-brand d-flex align-items-center fw-bold" href="/ASM/home.html"
+                    style="font-size: 2rem;">
+                    <img src="https://cdn.icon-icons.com/icons2/2845/PNG/512/squarespace_logo_icon_181252.png" alt=""
+                        width="60" class="d-inline-block align-content-center">
+                    Dejavie
+                </a>
+            </div>
+            <div class="w-50">
+                <form class="d-flex">
+                    <input class="form-control rounded-5" type="search" placeholder="Nhập tên sản phẩm cần tìm"
+                        aria-label="Search">
+                </form>
+            </div>
+            <div class="d-flex">
+
+                <div>
+                    <i class=" m-2 fa-solid fa-user fa-lg"></i>
+                </div>
+                <div>
+                    <i class="m-2 fa-solid fa-heart fa-lg"></i>
+                </div>
+                <div>
+                    <a href="/ASM/cartDetail.html" class="text-decoration-none text-black">
+                        <i class="m-2 fa-solid fa-cart-shopping fa-lg"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-evenly w-100 m-1 text-center text-uppercase fw-bold"
+            style="font-size: 1rem;">
+
+            <div>
+                Trang chủ
+            </div>
+            <div class="position-relative category-parent">
+                Danh mục
+                <i class="fa-solid fa-caret-down ps-2"></i>
+                <div
+                    class=" d-flex flex-column text-start p-3 lh-lg category-items bg-light-subtle shadow mt-2 rounded-3 z-1">
+                    <a class="cate-item text-decoration-none ">
+                        <i class="fa-solid fa-circle-nodes me-2"></i>
+                        Bông tai
+                    </a>
+                    <a class="cate-item text-decoration-none ">
+
+                        <i class="fa-solid fa-spinner me-2"></i>
+                        Vòng cổ
+                    </a>
+                    <a class="cate-item text-decoration-none ">
+                        <i class="fa-solid fa-ring me-2"></i>
+                        Nhẫn
+                    </a>
+                    <a class="cate-item text-decoration-none ">
+                        <i class="fa-solid fa-circle-notch me-2"></i>
+                        Vòng tay
+                    </a>
+                    <a class="cate-item text-decoration-none ">
+                        <i class="fa-solid fa-hashtag me-2"></i>
+                        Khác
+                    </a>
+                </div>
+            </div>
+            <div>
+                Trang sức
+            </div>
+            <div>
+                Ưu đãi khủng
+            </div>
+            <div>
+                Sản phẩm mới
+            </div>
+
+            <div>
+                Về chúng tôi
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div class="fw-medium fs-2 text-center m-4">
+            Nhẫn
+        </div>
+        <div class="d-flex justify-content-center mt-3 mb-3">
+            <div class="d-flex justify-content-center flex-column text-center m-3">
+                <div class="rounded-circle bg-success border-black-subtle border mt-2 mb-2">
+                    <img src="/imgs/cateIconBrac.webp" class="rounded-circle">
+                </div>
+                <div>
+                    Vòng tay
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column text-center m-3">
+                <div class="rounded-circle bg-success border-dark-subtle border mt-2 mb-2">
+                    <img src="/imgs/cateIconEar.webp" class="rounded-circle">
+                </div>
+                <div>
+                    Bông tai
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column text-center m-3">
+                <div class="rounded-circle bg-success border-black-subtle border mt-2 mb-2">
+                    <img src="/imgs/cateIconNeck.webp" class="rounded-circle">
+                </div>
+                <div>
+                    Dây chuyền
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column text-center m-3">
+                <div class="rounded-circle bg-success border-black-subtle border mt-2 mb-2">
+                    <img src="/imgs/cateIconRing.webp" class="rounded-circle">
+                </div>
+                <div>
+                    Nhẫn
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column text-center m-3">
+                <div class="rounded-circle bg-success border-black-subtle border mt-2 mb-2">
+                    <img src="/imgs/cateIconSet.webp" class="rounded-circle">
+                </div>
+                <div>
+                    Bộ
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column text-center m-3">
+                <div class="rounded-circle bg-success border-black-subtle border mt-2 mb-2">
+                    <img src="/imgs/cateIconOther.webp" class="rounded-circle">
+                </div>
+                <div>
+                    Khác
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="d-flex justify-content-between ps-3 pe-3">
+            <div class="text-black-50 align-middle d-flex align-items-center">
+                Đang xem 4 sản phẩm
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="dropdown ms-2 me-2">
+                    <button class="btn rounded-0 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Sắp sếp mặc định
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Theo tên A-Z</a></li>
+                        <li><a class="dropdown-item" href="#">Theo tên Z-A</a></li>
+                        <li><a class="dropdown-item" href="#">Giá tăng dần</a></li>
+                        <li><a class="dropdown-item" href="#">Giá giảm dần</a></li>
+                    </ul>
+                </div>
+                <button class="btn border border-black rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    Lọc
+                    <i class="fa-solid fa-filter"></i>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Lọc sản phẩm</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div>
+                        <label for="customRange1" class="form-label">Giá Từ</label>
+                        <input type="range" min="0" max="9999999999" class="form-range" id="customRange1">
+                    </div>
+                    <div>
+                        <label for="customRange1" class="form-label">Giá Tới</label>
+                        <input type="range" min="0" max="9999999999" class="form-range" id="customRange1">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                       <button class="btn border border-black p-2 m-3 rounded-0">
+                        Áp dụng
+                       </button>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+           
+        </div>
+        <hr>
+
+
+        <div class="d-flex justify-content-evenly flex-wrap">
+            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
+
+                <div class="w-25 position-relative">
+                    <a>
+                        <img src="../imgs/product/ring/1.webp" height="400px">
+                    </a>
+
+                </div>
+                <div style="width: 100%;" class="d-flex">
+                    <button
+                        class="item-hover btn rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3">
+                        Thêm vào giỏ hàng
+                    </button>
+                    <button
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
+                </div>
+                <div class="p-2 border-top">
+                    <div style="color: #c6ad8a;">
+                        Loai: Other
+                    </div>
+                    <div class="fw-light" style="font-size: 1.5rem;">
+                        Trâm chìa khóa Fleur de Lis
+                    </div>
+                    <div class="fw-light text-black-50" style="font-size: .9rem;">
+                        Brilliant beacons of optimism and hope, Tiffany Keys are radiant symbols of a bright future.
+                    </div>
+                    <div class="fw-light">
+
+                        <span class="fs-5">
+                            1300000
+                        </span>
+                        <span class="fs-6 text-decoration-line-through">
+                            1500000
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.2rem;">
+
+                <div class="w-25 position-relative">
+                    <a>
+                        <img src="../imgs/product/ring/2.webp" height="400px">
+                    </a>
+
+                </div>
+                <div style="width: 100%;" class="d-flex">
+                    <button
+                        class="item-hover btn rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3">
+                        Thêm vào giỏ hàng
+                    </button>
+                    <button
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
+                </div>
+                <div class="p-2 border-top">
+                    <div style="color: #c6ad8a;">
+                        Loai: Other
+                    </div>
+                    <div class="fw-light" style="font-size: 1.5rem;">
+                        Trâm chìa khóa Fleur de Lis
+                    </div>
+                    <div class="fw-light text-black-50" style="font-size: .9rem;">
+                        Brilliant beacons of optimism and hope, Tiffany Keys are radiant symbols of a bright future.
+                    </div>
+                    <div class="fw-light">
+
+                        <span class="fs-5">
+                            1300000
+                        </span>
+                        <span class="fs-6 text-decoration-line-through">
+                            1500000
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
+
+                <div class="w-25 position-relative">
+                    <a>
+                        <img src="../imgs/product/ring/3.webp" height="400px">
+                    </a>
+
+                </div>
+                <div style="width: 100%;" class="d-flex">
+                    <button
+                        class="item-hover btn rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3">
+                        Thêm vào giỏ hàng
+                    </button>
+                    <button
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
+                </div>
+                <div class="p-2 border-top">
+                    <div style="color: #c6ad8a;">
+                        Loai: Other
+                    </div>
+                    <div class="fw-light" style="font-size: 1.5rem;">
+                        Trâm chìa khóa Fleur de Lis
+                    </div>
+                    <div class="fw-light text-black-50" style="font-size: .9rem;">
+                        Brilliant beacons of optimism and hope, Tiffany Keys are radiant symbols of a bright future.
+                    </div>
+                    <div class="fw-light">
+
+                        <span class="fs-5">
+                            1300000
+                        </span>
+                        <span class="fs-6 text-decoration-line-through">
+                            1500000
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.2rem;">
+
+                <div class="w-25 position-relative">
+                    <a>
+                        <img src="../imgs/product/ring/4.webp" height="400px">
+                    </a>
+
+                </div>
+                <div style="width: 100%;" class="d-flex">
+                    <button
+                        class="item-hover btn rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3">
+                        Thêm vào giỏ hàng
+                    </button>
+                    <button
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
+                </div>
+                <div class="p-2 border-top">
+                    <div style="color: #c6ad8a;">
+                        Loai: Other
+                    </div>
+                    <div class="fw-light" style="font-size: 1.5rem;">
+                        Trâm chìa khóa Fleur de Lis
+                    </div>
+                    <div class="fw-light text-black-50" style="font-size: .9rem;">
+                        Brilliant beacons of optimism and hope, Tiffany Keys are radiant symbols of a bright future.
+                    </div>
+                    <div class="fw-light">
+
+                        <span class="fs-5">
+                            1300000
+                        </span>
+                        <span class="fs-6 text-decoration-line-through">
+                            1500000
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+
+        <div class="bg-dark text-white-50 p-5 d-flex justify-content-around">
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                    Tài khoản của tôi
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            Tài khoản của tôi
+                        </li>
+                        <li>
+                            Danh sách yêu thích
+                        </li>
+                        <li>
+                            Giỏ hàng
+                        </li>
+                        <li>
+                            Thanh toán
+                        </li>
+                        <li>
+                            Đăng ký
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                    Thông tin
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            Về chúng tôi
+                        </li>
+                        <li>
+                            Blog của chúng tôi
+                        </li>
+                        <li>
+                            FAQ
+                        </li>
+                        <li>
+                            Liên hệ
+                        </li>
+                        <li>
+                            Điểu khoản và điều kiện
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div style="line-height: 2rem;">
+                <div class="text-uppercase fw-medium">
+                    Địa chỉ liên hệ
+                </div>
+                <div>
+                    <ul>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-location-dot" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                Số 999 Đường Lý Hoàng Quân, Thập Vạn Đại Sơn
+                            </div>
+                        </li>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-phone" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                0987653421
+                            </div>
+                        </li>
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-clock" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                Thứ 2-6 | Từ 8:00 - 18:00
+                            </div>
+                        </li>
+
+                        <li class="list-unstyled d-flex">
+                            <div class="me-2">
+                                <i class="fa-solid fa-envelope" style="color: #c6ad8a;"></i>
+                            </div>
+                            <div>
+                                hoanglong.cmb@gmail.com
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="border border-dark-subtle text-white-50 p-4 bg-dark border-start-0 border-bottom-0 border-end-0">
+            © 2024 hlk9. All rights reserved.
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
