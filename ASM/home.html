@@ -14,107 +14,119 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-white d-flex justify-content-center border-bottom sticky-top border-black">
-        <div class="container-fluid d-flex justify-content-between">
 
-            <div>
-                <a class="navbar-brand d-flex align-items-center fw-bold" href="/ASM/home.html"
-                    style="font-size: 2rem;">
-                    <img src="https://cdn.icon-icons.com/icons2/2845/PNG/512/squarespace_logo_icon_181252.png" alt=""
-                        width="60" class="d-inline-block align-content-center">
-                    Dejavie
-                </a>
-            </div>
-            <div class="w-50">
-                <form class="d-flex">
-                    <input class="form-control rounded-5" type="search" placeholder="Nhập tên sản phẩm cần tìm"
-                        aria-label="Search">
-                </form>
-            </div>
-            <div class="d-flex">
 
-                <div>
-                    <i class=" m-2 fa-solid fa-user fa-lg"></i>
+    <nav class="navbar navbar-expand-lg bg-white border border-bottom border-black sticky-top pt-3 pb-3">
+        <div class="container-fluid">
+            <img src="https://cdn.icon-icons.com/icons2/2845/PNG/512/squarespace_logo_icon_181252.png" alt="" width="60"
+                class="d-inline-block align-content-center">
+            <a class="navbar-brand" href="#">Dejavie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Danh mục
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/ASM/cateRing.html">
+                                    <i class="fa-solid fa-circle-nodes me-2"></i>
+                                    Bông tai
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa-solid fa-spinner me-2"></i>
+                                    Dây chuyền
+                                </a></li>
+
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa-solid fa-ring me-2"></i>
+                                    Nhẫn
+                                </a></li>
+
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa-solid fa-circle-notch me-2"></i>
+                                    Vòng tay
+                                </a></li>
+
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa-solid fa-hashtag me-2"></i>
+                                    Khác
+                                </a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Ưu đãi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Giảm giá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Sản phẩm mới</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Về chúng tôi</a>
+                    </li>
+                </ul>
+
+                <div class="align-self-start">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Từ khóa" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Tìm</button>
+                    </form>
                 </div>
-                <div>
-                    <i class="m-2 fa-solid fa-heart fa-lg"></i>
-                </div>
-                <div>
-                   <a href="/ASM/cartDetail.html" class="text-decoration-none text-black">
-                    <i class="m-2 fa-solid fa-cart-shopping fa-lg"></i>
-                   </a>
-                </div>
+                <div class="d-flex justify-content-around mt-2 mb-2">
+                    <div>
+                        <a class="text-decoration-none text-black" href="/ASM/login.html">
+                            <i class=" m-2 fa-solid fa-user fa-lg"></i>
+                        </a>
 
-            </div>
+                    </div>
+                    <div>
+                        <a class="text-decoration-none text-black">
 
-        </div>
-        <div class="d-flex justify-content-evenly w-100 m-1 text-center text-uppercase fw-bold"
-            style="font-size: 1rem;">
-
-            <div>
-                Trang chủ
-            </div>
-            <div class="position-relative category-parent">
-                Danh mục
-                <i class="fa-solid fa-caret-down ps-2"></i>
-                <div class=" d-flex flex-column text-start p-3 lh-lg category-items bg-light-subtle shadow mt-2 rounded-3 z-1">
-                    <a class="cate-item text-decoration-none ">                        
-                        <i class="fa-solid fa-circle-nodes me-2"></i>
-                        Bông tai
-                    </a>
-                    <a class="cate-item text-decoration-none ">
-                      
-                        <i class="fa-solid fa-spinner me-2"></i>
-                        Vòng cổ
-                    </a>
-                    <a class="cate-item text-decoration-none" href="/ASM/cateRing.html">
-                        <i class="fa-solid fa-ring me-2"></i>
-                        Nhẫn
-                    </a>
-                    <a class="cate-item text-decoration-none ">
-                        <i class="fa-solid fa-circle-notch me-2"></i>
-                        Vòng tay
-                    </a>
-                    <a class="cate-item text-decoration-none ">
-                        <i class="fa-solid fa-hashtag me-2"></i>
-                        Khác
-                    </a>
+                            <i class="m-2 fa-solid fa-heart fa-lg"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="text-decoration-none text-black" href="/ASM/cartDetail.html">
+                            <i class="m-2 fa-solid fa-cart-shopping fa-lg"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div>
-                Trang sức
-            </div>
-            <div>
-                Ưu đãi khủng
-            </div>
-            <div>
-                Sản phẩm mới
-            </div>
-
-            <div>
-                Về chúng tôi
-            </div>
-        </div>
     </nav>
+
     <div class="container-fluid p-0" style="font-family:'Roboto', sans-serif;">
 
-        <div class="position-relative">
-            <img src="../imgs/6-1.webp" width="100%" class="p-0 m-0">
-
-            <div class="position-absolute ms-4 " style="top:30%">
-                <div class="fw-bold" style="font-size: 3rem;">
-                    Thu hút mọi ánh nhìn với <br>Zeras
+        <div class="row ms-0 me-0" style="background-color: #f9f9f9;">
+            <div class=" col-md-5 col-lg-5 col-sm-12 col-12 d-flex flex-column justify-content-center text-start align-self-center">
+                <div class="d-flex flex-column ps-lg-4 ps-md-4 p-1">
+                    <div class="fw-bold" style="font-size: 3rem;">
+                        Thu hút mọi ánh nhìn với <br>Zeras
+                    </div>
+                    <div class="text-black-50 mt-3 mb-3" style="font-size: 1.3rem;">
+                        Bông tai quý phái được thiết kế và gia công bởi hlk9 <br> với số lượng có hạn!
+                    </div>
+                    <div class="d-flex mt-4 mb-4">
+                        <button class="btn btn-dark rounded-0 p-3 border">
+                            Đặt hàng ngay
+                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                        </button>
+                    </div>
                 </div>
-
-                <div class="text-black-50 mt-3 mb-3" style="font-size: 1.3rem;">
-                    Bông tai quý phái được thiết kế và gia công bởi hlk9 <br> với số lượng có hạn!
-                </div>
-                <div class="d-flex mt-4 mb-4">
-                    <button class="btn btn-dark rounded-0 p-3 border">
-                        Đặt hàng ngay
-                        <i class="fa-solid fa-arrow-right ms-1"></i>
-                    </button>
-                </div>
+            </div>
+            <div class=" col-md-7 col-lg-7 d-none d-sm-none d-md-block d-lg-block">
+                <img src="../imgs/6-1.webp" width="100%"  class="p-0 m-0">
             </div>
         </div>
     </div>
@@ -193,13 +205,14 @@
 
     </div>
     <div class="container-fluid mt-5 mb-4">
-        <div class="d-flex justify-content-evenly flex-wrap">
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
+        <div class="row justify-content-around flex-wrap ms-1 me-1">
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
 
-                <div class="w-25 position-relative">
-                   <a>
-                    <img src="../imgs/product/1/1.webp" height="400px">
-                   </a>
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/1/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -208,9 +221,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -224,21 +238,23 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
 
-                <div class="w-25 position-relative">
-                   <a>
-                    <img src="../imgs/product/2/1.webp" height="400px">
-                   </a>
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/1/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -247,9 +263,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -263,21 +280,23 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
 
-                <div class="w-25 position-relative">
-                   <a>
-                    <img src="../imgs/product/3/1.webp" height="400px">
-                   </a>
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/2/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -286,9 +305,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -302,21 +322,23 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
 
-                <div class="w-25 position-relative">
-                   <a>
-                    <img src="../imgs/product/4/1.webp" height="400px">
-                   </a>
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/3/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -325,9 +347,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -341,21 +364,23 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
 
-                <div class="w-25 position-relative">
-                   <a href="/ASM/productdetail.html">
-                    <img src="../imgs/jew1.webp" height="400px">
-                   </a>
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/4/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -364,9 +389,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -380,21 +406,23 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
 
-                <div class="w-25 position-relative">
-                   <a>
-                    <img src="../imgs/product/2/1.webp" height="400px">
-                   </a>
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/1/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -403,9 +431,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -419,21 +448,23 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
 
-                <div class="w-25 position-relative">
-                   <a>
-                    <img src="../imgs/product/2/1.webp" height="400px">
-                   </a>
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/1/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -442,9 +473,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -458,21 +490,23 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column mt-4 mb-4 border border-black " style="max-width: 25.1rem;">
 
-                <div class="w-25 position-relative">
-                   <a>
-                    <img src="../imgs/product/2/1.webp" height="400px">
-                   </a>
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/1/1.webp" class="w-100">
+                    </a>
 
                 </div>
                 <div style="width: 100%;" class="d-flex">
@@ -481,9 +515,10 @@
                         Thêm vào giỏ hàng
                     </button>
                     <button
-                    class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3" style="background-color: #c6ad8a;">
-                    Mua ngay
-                </button>
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
                 </div>
                 <div class="p-2 border-top">
                     <div style="color: #c6ad8a;">
@@ -497,15 +532,58 @@
                     </div>
                     <div class="fw-light">
 
-                       <span class="fs-5">
-                        1300000
-                       </span>
+                        <span class="fs-5">
+                            1300000
+                        </span>
                         <span class="fs-6 text-decoration-line-through">
                             1500000
                         </span>
                     </div>
                 </div>
             </div>
+
+            <div
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 flex-column mt-4 mb-4 ms-1 me-1 p-0 border border-black">
+                <div class="position-relative">
+                    <a>
+                        <img src="../imgs/product/1/1.webp" class="w-100">
+                    </a>
+                </div>
+                <div style="width: 100%;" class="d-flex">
+                    <button
+                        class="item-hover btn rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3">
+                        Thêm vào giỏ hàng
+                    </button>
+                    <button
+                        class="item-hover btn btn-dark rounded-0 border border-end-0 border-start-0 border-black w-50 pt-3 pb-3"
+                        style="background-color: #c6ad8a;">
+                        Mua ngay
+                    </button>
+                </div>
+                <div class="p-2 border-top">
+                    <div style="color: #c6ad8a;">
+                        Loai: Other
+                    </div>
+                    <div class="fw-light" style="font-size: 1.5rem;">
+                        Trâm chìa khóa Fleur de Lis
+                    </div>
+                    <div class="fw-light text-black-50" style="font-size: .9rem;">
+                        Brilliant beacons of optimism and hope, Tiffany Keys are radiant symbols of a bright future.
+                    </div>
+                    <div class="fw-light">
+
+                        <span class="fs-5">
+                            1300000
+                        </span>
+                        <span class="fs-6 text-decoration-line-through">
+                            1500000
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+
 
         </div>
     </div>
@@ -535,21 +613,21 @@
             </div>
         </div>
 
-       
+
     </div>
     <div class="d-flex justify-content-between align-items-center p-5 " style="background-color: #FDF9F2;">
-        <div class="fw-medium" style="font-size: 2rem;">
+        <div class="fw-medium d-lg-block d-none" style="font-size: 2rem;">
             Hình dạng đá quý
         </div>
-        <div>
+        <div class="d-lg-block d-none">
             <img loading="lazy" decoding="async" width="120" height="2"
                 src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1816616287.png"
                 class="attachment-full size-full wp-image-838" alt=""
                 srcset="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1816616287.png 120w, https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1816616287-100x2.png 100w"
                 sizes="(max-width: 120px) 100vw, 120px">
         </div>
-        <div class="d-flex flex-wrap">
-            <div class="d-flex justify-content-center flex-column text-center m-4">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-4 d-flex justify-content-center flex-column text-center m-4">
                 <div>
                     <svg class="c-ip-image-list-1__svg" width="51" height="60" viewBox="0 0 51 60" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -563,7 +641,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center flex-column text-center m-4">
+            <div class="col-lg-2 col-4 d-flex justify-content-center flex-column text-center m-4">
                 <div>
                     <svg class="c-ip-image-list-1__svg" width="43" height="62" viewBox="0 0 43 62" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -577,7 +655,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center flex-column text-center m-4">
+            <div class="col-lg-2 col-4 d-flex justify-content-center flex-column text-center m-4">
                 <div>
                     <svg class="c-ip-image-list-1__svg" width="43" height="60" viewBox="0 0 43 60" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -591,7 +669,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center flex-column text-center m-4">
+            <div class=" col-lg-2 col-4 d-flex justify-content-center flex-column text-center m-4">
                 <div>
                     <svg class="c-ip-image-list-1__svg" width="36" height="62" viewBox="0 0 36 62" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -605,7 +683,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center flex-column text-center m-4">
+            <div class="col-lg-2 col-4 d-flex justify-content-center flex-column text-center m-4">
                 <div>
                     <svg class="c-ip-image-list-1__svg" width="30" height="62" viewBox="0 0 30 62" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -618,7 +696,7 @@
                     Hầu tước
                 </div>
             </div>
-            <div class="d-flex justify-content-center flex-column text-center m-4">
+            <div class="col-lg-2 col-4 d-flex justify-content-center flex-column text-center m-4">
                 <div>
                     <svg class="c-ip-image-list-1__svg" width="52" height="60" viewBox="0 0 52 60" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -634,105 +712,121 @@
         </div>
     </div>
 
-    <div class="d-flex flex-wrap">
-        <div>
-           <a>
-            <div class="position-relative" style="background-image: url('../imgs/bacre.webp'); height: 650px; min-width: 320px; max-width: 320px; background-repeat: no-repeat; background-size: cover;">       
-                <div class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
-                   <div class="fw-bold" style="font-size: 2rem;">
-                    Vòng tay
-                   </div>
+    <div class="row justify-content-center p-0 m-0" style="height: 40rem;">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 p-0">
+            <a>
+                <div class="position-relative w-100 m-0"
+                    style="background-image: url('../imgs/bacre.webp'); height: 100%; min-width: 100%; background-repeat: no-repeat; background-size: cover;">
+                    <div
+                        class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
+                        <div class="fw-bold" style="font-size: 2rem;">
+                            Vòng tay
+                        </div>
+                    </div>
                 </div>
-            </div>            
 
-           </a>
+            </a>
         </div>
 
-        <div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 p-0">
             <a>
-             <div class="position-relative" style="background-image: url('../imgs/ring.webp'); height: 650px; min-width: 320px; max-width: 320px; background-repeat: no-repeat; background-size: cover;">       
-                 <div class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
-                    <div class="fw-bold" style="font-size: 2rem;">
-                     Nhẫn
+                <div class="position-relative w-100"
+                    style="background-image: url('../imgs/ring.webp'); height: 100%; min-width: 100%; background-repeat: no-repeat; background-size: cover;">
+                    <div
+                        class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
+                        <div class="fw-bold" style="font-size: 2rem;">
+                            Nhẫn
+                        </div>
                     </div>
-                 </div>
-             </div>            
- 
-            </a>
-         </div>
+                </div>
 
-         <div>
+            </a>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 p-0">
             <a>
-             <div class="position-relative" style="background-image: url('../imgs/ear.webp'); height: 650px; min-width: 320px; max-width: 320px; background-repeat: no-repeat; background-size: cover;">       
-                 <div class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
-                    <div class="fw-bold" style="font-size: 2rem;">
-                Bông tai
+                <div class="position-relative w-100"
+                    style="background-image: url('../imgs/ear.webp'); height: 100%; min-width: 100%; background-repeat: no-repeat; background-size: cover;">
+                    <div
+                        class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
+                        <div class="fw-bold" style="font-size: 2rem;">
+                            Bông tai
+                        </div>
                     </div>
-                 </div>
-             </div>            
- 
-            </a>
-         </div>
+                </div>
 
-         <div>
+            </a>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 p-0">
             <a>
-             <div class="position-relative" style="background-image: url('../imgs/neck.webp'); height: 650px; min-width: 320px; max-width: 320px; background-repeat: no-repeat; background-size: cover;">       
-                 <div class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
-                    <div class="fw-bold" style="font-size: 2rem;">
-                     Vòng cổ
+                <div class="position-relative w-100"
+                    style="background-image: url('../imgs/neck.webp'); height: 100%; min-width: 100%; background-repeat: no-repeat; background-size: cover;">
+                    <div
+                        class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
+                        <div class="fw-bold" style="font-size: 2rem;">
+                            Vòng cổ
+                        </div>
                     </div>
-                 </div>
-             </div>            
- 
-            </a>
-         </div>
+                </div>
 
-         <div>
+            </a>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 p-0">
             <a>
-             <div class="position-relative" style="background-image: url('../imgs/set.webp'); height: 650px; min-width: 320px; max-width: 320px; background-repeat: no-repeat; background-size: cover;">       
-                 <div class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
-                    <div class="fw-bold" style="font-size: 2rem;">
-                     Bộ
+                <div class="position-relative w-100"
+                    style="background-image: url('../imgs/set.webp'); height: 100%; min-width: 100%; background-repeat: no-repeat; background-size: cover;">
+                    <div
+                        class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
+                        <div class="fw-bold" style="font-size: 2rem;">
+                            Bộ
+                        </div>
                     </div>
-                 </div>
-             </div>            
- 
+                </div>
+
             </a>
-         </div>
+        </div>
 
 
-         <div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 p-0">
             <a>
-             <div class="position-relative" style="background-image: url('../imgs/other.webp'); height: 650px; min-width: 320px; max-width: 320px; background-repeat: no-repeat; background-size: cover;">       
-                 <div class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
-                    <div class="fw-bold" style="font-size: 2rem;">
-                     Khác
+                <div class="position-relative w-100"
+                    style="background-image: url('../imgs/other.webp'); height: 100%; max-width: 100%; background-repeat: no-repeat; background-size: cover;">
+                    <div
+                        class="position-absolute bg-black text-white w-100 h-100 opacity-25 text-center d-flex justify-content-center align-items-center">
+                        <div class="fw-bold" style="font-size: 2rem;">
+                            Khác
+                        </div>
                     </div>
-                 </div>
-             </div>            
- 
+                </div>
+
             </a>
-         </div>
+        </div>
 
     </div>
 
-    <div class="p-5 d-flex justify-content-between align-items-center" style="background-color:#FDF9F2;">
-        <div class="m-5">
+    <div class="p-5 row m-0 d-flex  align-items-center" style="background-color:#FDF9F2;">
+        <div class="mt-5 mb-5 col-lg-6">
             <img src="../imgs/history.webp" width="100%">
         </div>
-        <div class="d-flex flex-column justify-content-center p-5">
+        <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
             <div class="m-5 text-center fw-medium" style="font-size: 2rem;">
                 Lịch sử cửa hàng
             </div>
             <div class="text-black fw-light" style="line-height: 2rem;">
 
-                    Village did removed enjoyed explain nor ham saw calling talking. Securing as informed declared or margaret. Joy horrible
-                    moreover man feelings own shy. Request norland neither mistake for yet. Between the for morning assured country believe.
-                    <br>
-                    On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end believe
-                    uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he esteem.
-                    <br>
-                    Improve ashamed married expense bed her comfort pursuit mrs.
+                Village did removed enjoyed explain nor ham saw calling talking. Securing as informed declared or
+                margaret. Joy horrible
+                moreover man feelings own shy. Request norland neither mistake for yet. Between the for morning assured
+                country believe.
+                <br>
+                On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir
+                end believe
+                uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he
+                esteem.
+                <br>
+                Improve ashamed married expense bed her comfort pursuit mrs.
 
             </div>
             <div class="d-flex justify-content-center m-5">
@@ -743,9 +837,7 @@
         </div>
     </div>
     <footer>
-
-        <div class="bg-dark text-white-50 p-5 d-flex justify-content-around">
-
+        <div class="bg-dark text-white-50 p-5 m-0 d-flex justify-content-around">
             <div style="line-height: 2rem;">
                 <div class="text-uppercase fw-medium">
                     Tài khoản của tôi
@@ -753,7 +845,7 @@
                 <div>
                     <ul>
                         <li>
-                            Tài khoản của tôi 
+                            Tài khoản của tôi
                         </li>
                         <li>
                             Danh sách yêu thích
@@ -800,7 +892,7 @@
 
             <div style="line-height: 2rem;">
                 <div class="text-uppercase fw-medium">
-                   Địa chỉ liên hệ
+                    Địa chỉ liên hệ
                 </div>
                 <div>
                     <ul>
@@ -817,7 +909,7 @@
                                 <i class="fa-solid fa-phone" style="color: #c6ad8a;"></i>
                             </div>
                             <div>
-                               0987653421
+                                0987653421
                             </div>
                         </li>
                         <li class="list-unstyled d-flex">
@@ -841,7 +933,7 @@
 
                 </div>
             </div>
-           
+
 
 
         </div>
@@ -851,6 +943,16 @@
 
     </footer>
 
-   
+    <script>
+
+        function ShowMenu() {
+            document.querySelector('.category-items').classList.add('opacity-100');
+        }
+        function HideMenu() {
+            document.querySelector('.category-items').classList.remove('opacity-100');
+        }
+
+    </script>
 </body>
+
 </html>
