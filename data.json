@@ -1,0 +1,73 @@
+{
+    "danh-muc": 
+    [
+        {
+            "id": "DM01",
+            "ten": "Vòng tay"
+        },
+        {
+            "id": "DM02",
+            "ten": "Bông tai"
+        },
+        {
+            "id": "DM03",
+            "ten": "Dây chuyền"
+        },
+        {
+            "id": "DM04",
+            "ten": "Nhẫn"
+        },
+        {
+            "id": "DM05",
+            "ten": "Bộ"
+        },
+        {
+            "id": "DM06",
+            "ten": "Khác"
+        }
+    ],
+    "san-pham": 
+    [
+        {
+            "id": "SP01",
+            "ten": "Trâm cài chìa khóa Fleur de Lis",
+            "anh": "img/san-pham_ao-khoac-01.webp",
+            "giaBan": 1010000,
+            "giaNiemYet": 2081000,
+            "tenDanhMuc": "Khác",
+            "idDanhMuc": "DM06",
+            "moTa":"Là ngọn hải đăng rực rỡ của sự lạc quan và hy vọng, Tiffany Keys là biểu tượng rạng ngời của một tương lai tươi sáng.",
+            "soLuongTonKho":40
+        },
+       
+    ],
+    "user":
+    [
+        {
+            "userName":"longhd",
+            "fullName":"Hoang Duy Long",
+            "email":"hoanglong.cmb@gmail.com",
+            "password":"123456",
+            "address":"Thập Vạn Đại Sơn",
+            "phoneNumber":"0965349018",
+            "role":"Admin"
+
+
+        }
+    ],
+    "cart":
+    [
+        {
+            "id":"C001",
+            "userName":"longhd"
+            
+        }
+    ],
+    "cartItem":
+    [
+        {
+            "id":"CI001",
+            "cartId":"C001"            
+        }
+    ]
+}
